@@ -739,11 +739,11 @@ class App(TkinterDnD.Tk):
             if os.path.exists(temp_base_dir): delete_item(temp_base_dir)
             os.makedirs(temp_base_dir, exist_ok=True)
 
-            url = f"https://github.com/BlankTMing/ManifestHub/archive/refs/heads/{game_id}.zip"
+            url = f"https://github.com/Fairyvmos/BlankTMing/archive/refs/heads/{game_id}.zip"
 
             if not download_file(url, downloaded_zip_path, self.update_status):
                  self.update_status(f"GitHub download failed, trying proxy for {game_id}.zip...", "orange")
-                 proxy_url = f"http://git.caigamer.com/https://github.com/BlankTMing/ManifestHub/archive/refs/heads/{game_id}.zip"
+                 proxy_url = url
                  if not download_file(proxy_url, downloaded_zip_path, self.update_status): return
 
             extracted_manifest_paths = extract_files_gui(downloaded_zip_path, temp_extract_dir, self.update_status)
