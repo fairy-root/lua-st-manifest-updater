@@ -10,6 +10,9 @@
   <img src="imgs/preview.png" alt="LSMU Preview">
 </div>
 
+**Note**: download the lua manifests using this tool
+[Steam Depot Online](https://github.com/fairy-root/steam-depot-online/blob/main/README.md)
+
 ## Features
 
 *   **File Input:** Select `.lua` or `.st` files via a file dialog or drag-and-drop.
