@@ -11,7 +11,7 @@
 </div>
 
 **Note**: download the lua manifests using this tool
-[Steam Depot Online](https://github.com/fairy-root/steam-depot-online/blob/main/README.md)
+[Steam Depot Online](https://github.com/fairy-root/steam-depot-online)
 
 ## Features
 
